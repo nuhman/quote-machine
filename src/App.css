@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Kanit');
+
+body{
+  margin:0;
+  padding: 0;
+  border: 0px;
+  height:100%;
+  width:100%;
+  background:#222831;
+  color: #EEEEEE;
+  font-family: 'Kanit', sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.main{  
+  width: 50%;  
+  margin-left: 25%;
+  margin-right: 25%;
+  background: #393E46;
+  overflow: hidden;
+  padding: 2em;
+  margin-top:13%;
+  text-align: center;
+  font-family: 'Berkshire Swash', cursive;
+}
+.Quote-body{    
+  font-size: 1.4em;
+}
+.Quote-author{
+  text-align: right;
+}
+.Quote-body i{
+  font-size: 2em;
+}
+.btn{
+  padding: 0.4em;
+  color: #fff;
+  background: #222831;
+  border:0;
+  margin:0;
+  right: 0;
+  width: 7em;  
+  float: right;
+  margin: 0.2em;    
+  margin-right: 0.6em;
+  border-radius: 5%;
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
+footer{
+  margin-top:10%;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
