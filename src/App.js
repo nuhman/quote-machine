@@ -15,7 +15,7 @@ class App extends Component {
 
   ajax = () => {
     let self = this;
-    axios.get('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1')
+    axios.get('https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1')
     .then(function (data) {      
       let response = JSON.parse(data.request.response);      
       let temp = document.createElement('div');
@@ -66,7 +66,7 @@ class App extends Component {
                next={this.handleNext}
                styles={this.state.styles}/>
         <footer>
-          <p>Quotes API : <u><a href="http://quotesondesign.com">QuotesOnDesign</a></u> </p>
+          <p>Quotes API : <u><a href="https://quotesondesign.com">QuotesOnDesign</a></u> </p>
         </footer>
       </div>
     );
